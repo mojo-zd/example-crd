@@ -1,4 +1,4 @@
-module github.com/mojo-zd
+module github.com/mojo-zd/example-crd
 
 go 1.15
 
