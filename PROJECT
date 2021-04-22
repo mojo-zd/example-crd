@@ -1,0 +1,16 @@
+domain: example.kubebuilder.io
+layout:
+- go.kubebuilder.io/v3
+projectName: example-crd
+repo: github.com/mojo-zd
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: example.kubebuilder.io
+  group: core
+  kind: Demo
+  path: github.com/mojo-zd/api/v1
+  version: v1
+version: "3"
